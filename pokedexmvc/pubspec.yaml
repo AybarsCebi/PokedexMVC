@@ -1,0 +1,26 @@
+name: pokedexmvc
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.0-444.6.beta <3.0.0'
+
+dependencies:
+  dio: ^5.0.1
+  flutter_screenutil: ^5.7.0
+  flutter:
+    sdk: flutter
+  mvc_pattern:
+  cached_network_image: ^3.2.3
+  google_fonts: ^4.0.3
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
